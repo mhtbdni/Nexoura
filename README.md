@@ -2,7 +2,7 @@
   <img src="images/logo.png" width="170">
 </p>
 
-<h1 align="center">Nexora</h1>
+<h1 align="center">Nexoura</h1>
 
 <p align="center">
 Electronics E-commerce Website
