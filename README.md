@@ -39,7 +39,7 @@ The project demonstrates a modern online shopping experience with product browsi
 
 - HTML5
 - CSS3
-- JavaScript (ES6)
+- JavaScript
 - JSON
 - Fetch API
 - LocalStorage
