@@ -1310,38 +1310,71 @@ ul li a:hover {
     }
 }
 
-@media (max-width: 900px) {
-    .offers-grid {
-        grid-template-columns: 1fr;
+@media (max-width: 1064px) {
+
+    .header-top {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        grid-template-areas:
+            "menu logo icons"
+            "search search search";
+        align-items: center;
+        gap: 12px;
     }
 
-    .blog-grid {
-        grid-template-columns: 1fr;
+    nav {
+        grid-area: menu;
     }
 
-    .promo-grid {
-        grid-template-columns: 1fr;
+    .logo-menu-wrapper {
+        grid-area: logo;
+        justify-self: center;
     }
 
-    .promo-laptop {
-        grid-column: span 1;
+    .header-icons {
+        grid-area: icons;
+        position: static;
+        margin: 0;
+        display: flex;
+        justify-self: end;
+        gap: 8px;
     }
 
-    .banner {
-        height: 280px;
+    .search-box {
+        grid-area: search;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
     }
 
-    .banner-content h2 {
-        font-size: 1.4rem;
+    .header-icons .icon-item span:not(.cart-badge) {
+        display: none;
     }
 
-    .banner-content {
-        padding: 30px;
+    .icon-item {
+        padding: 8px;
+    }
+
+    .mega-menu-btn {
+        padding: 10px 12px;
     }
 
     .mega-menu-btn span {
         display: none;
     }
+
+    .logo-slogan {
+        display: none;
+    }
+
+    .logo img {
+        height: 45px;
+    }
+
+    .mega-menu-container {
+        width: 450px;
+    }
+
 }
 
 @media (max-width: 768px) {
