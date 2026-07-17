@@ -5,9 +5,9 @@
 <h1 align="center">Nexora</h1>
 
 <p align="center">
-Responsive E-commerce Website
+Electronics E-commerce Website
 </p>
-A responsive e-commerce website built with HTML, CSS and JavaScript.
+A electronics e-commerce website built with HTML, CSS and JavaScript.
 
 The project demonstrates a modern online shopping experience with product browsing, product details and shopping cart management using LocalStorage.
 
