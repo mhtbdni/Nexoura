@@ -1,4 +1,3 @@
-# Nexora
 <p align="center">
   <img src="images/logo.png" width="170">
 </p>
@@ -28,9 +27,11 @@ The project demonstrates a modern online shopping experience with product browsi
 - Color selection
 - Quantity selection
 - Shopping cart
+- Client-side form validation
 - LocalStorage persistence
 - Price and discount calculation
 - Responsive design
+  
 
 ---
 
